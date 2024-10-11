@@ -1,5 +1,5 @@
 """
-PyNotes
+PyPlayer
 A very basic video player (mp4)
 Exercise from the course "Le framework PySide" on the Docstring website (www.docstring.fr)
 

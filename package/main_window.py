@@ -6,14 +6,13 @@ Contains MainWindow class
 import sys
 from functools import partial
 
-from PySide6.QtWidgets import QMainWindow, QToolBar, QStyle, QFileDialog, QDialog, QSlider, QWidget, QVBoxLayout, \
-    QLabel, QHBoxLayout, QMessageBox
 from PySide6.QtCore import QStandardPaths, Qt
 from PySide6.QtGui import QShortcut, QKeySequence
 from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
-from PySide6.QtMultimediaWidgets import QVideoWidget
+from PySide6.QtWidgets import QMainWindow, QToolBar, QStyle, QFileDialog, QDialog, QSlider, QWidget, QVBoxLayout, \
+    QLabel, QHBoxLayout, QMessageBox
 
-from .custom_video_widget import CustomVideoWidget
+from package.custom_video_widget import CustomVideoWidget
 
 
 class MainWindow(QMainWindow):
